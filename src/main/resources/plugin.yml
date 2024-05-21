@@ -1,0 +1,12 @@
+name: PhoenixPlugin
+version: '${project.version}'
+main: org.phoenixplugin.PhoenixPlugin
+api-version: '1.20'
+authors: [somikyy, rmw]
+description: PhoenixPlugin
+
+commands:
+    summon_phoenix:
+        description: Summons a phoenix
+        usage: /summon_phoenix
+        permission: phoenixplugin.summon
